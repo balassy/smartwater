@@ -6,13 +6,14 @@ SmartWater is a microcontroller-based IoT device to measure water level. It uses
 
 ## Features
 
-- Measures the waster level (distance) in every five (configurable) seconds.
+- Measures the water level (distance) in every five (configurable) seconds.
 - Averages the values of 3 (configurable) measurements.
-- Filters out extreme values.
-- Sends the measured data to a remote endpoint via HTTP POST.
+- Filters out extreme (configurable) values.
+- Sends the measured data to a remote endpoint (e.g. MagicMirror) via HTTP POST (configurable).
 - Has an edge lit acrylic panel to indicate that the device is turned on.
-- Has 3 LEDs to indicate the water level (green: OK, yellow: warning, red: alert)
-- Does a cuick LED test when the device is turned on.
+- Has 3 LEDs to indicate the water level (green: OK, yellow: warning, red: alert) with configurable thresholds.
+- Does a quick LED test when the device is turned on.
+- Generic case that can host a 70×50mm prototype PCB.
 - Tons of space for greeblies to customize the case.
 
 ## Parts
@@ -27,7 +28,7 @@ You need the following parts to build this project:
 - 4× LEDs (blue, red, yellow, green)
 - 4× 220 Ω resistors
 - Pin headers (if you don't want to solder the cable between the display box and the sensor)
-- 4-wire cable.
+- 4-wire cable to connect the sensor to the microcontroller.
 - 4× M1 screws to mount the HC-SR04 sensor into the sensor case. You can also use hot glue.
 - 4× M2 screws to mount the PCB to the box
 - 4× M3 countersunk screws for the back of the display case
