@@ -20,14 +20,14 @@ const char* WIFI_AP_PASSWORD = "SuperSecret";        // The password required to
 const char* MAGIC_MIRROR_ENDPOINT = "http://192.168.0.196:8080/smart-water";  // The IP address and port number of the MagicMirror device on the network.
 
 #define UPDATE_INTERVAL_IN_SECONDS 5                // The frequency of measuring data and sending updates in seconds.
+#define MEASURE_COUNT 3                             // The number of measurements used for averaging.
+#define MIN_OK_DISTANCE_IN_CM 50                    // The minimum value for OK water level. Above this value the green led will turn on.
+#define MIN_WARNING_DISTANCE_IN_CM 30               // The minimum value for warning water level. Above this value the yellow led will turn on.
+#define MAX_VALID_DISTANCE_IN_CM 200                // The maxmimum value that is accepted as a valid value. Above this the measured values are ignored.
 
 // -------- Config ends --------
 
 #define SOUND_SPEED 0.034 // cm/microSeconds
-#define MEASURE_COUNT 3
-#define MIN_OK_DISTANCE_IN_CM 50
-#define MIN_WARNING_DISTANCE_IN_CM 30
-#define MAX_VALID_DISTANCE_IN_CM 200
 
 AutoConnect autoConnect;
 
