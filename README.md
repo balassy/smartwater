@@ -43,6 +43,8 @@ Basically:
 - Connect the sensor to the microcontroller directly.
 - Connect the LEDs to the microcontroller through the resistors.
 
+![Wiring](./Wiring/schematic.png)
+
 ### 3D Print
 
 The `3D` folder contains 3D printable files for both the sensor and the display case. No supports needed and you can use 0.3 mm layer height.
