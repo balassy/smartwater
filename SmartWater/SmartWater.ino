@@ -10,8 +10,8 @@ int pinLevelWarningLed = D7;
 int pinLevelAlertLed = D6;
 
 // HC-SR04 ultrasonic sensor pins.
-int pinSensorTrigger = D1;
-int pinSensorEcho = D2;
+int pinSensorTrigger = D3;
+int pinSensorEcho = D4;
 
 // Network.
 const char* WIFI_AP_SSID = "SmartWater";             // The name of the wireless network to create if cannot connect using the previously saved credentials.
