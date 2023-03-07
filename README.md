@@ -51,6 +51,8 @@ The `3D` folder contains 3D printable files for both the sensor and the display 
 
 I included the original Fusion360 model files, and also exported them to STEP format, so you can modify them to your needs.
 
+I uploaded the [models to Printables](https://www.printables.com/model/417389-sci-fi-project-box) as well, please share your makes there!
+
 ### CNC
 
 The case can host a 85×85 mm edge lit acrylic panel. You can carve any drawing to this panel, you can find the source files of the Death Star I used in the `CNC` folder.
