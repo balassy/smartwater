@@ -83,6 +83,7 @@ When the device is turned on, it creates a WiFi hotspot, if WiFi connection sett
 
 Connect to this WiFi network from your computer or mobile device and let it open the captive portal. The captive portal is served from the microcontroller and will provide a browser based user interface to select your preferred WiFi network and enter your WiFi password.
 
+> In case your browser does not automatically open the settings page navigate to this URL: http://172.217.28.1/_ac
 
 ## Improvements ideas
 
